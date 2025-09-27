@@ -4,7 +4,7 @@ def main():
         "name": "LI KANGJIA",
         "title": "AI Engineer",
         "description": "AI Engineer passionate about MLOPs and automation.",
-        "skills": ["Python", "TensorFlow", "Git", "CI/CD", "Docker"],
+        "skills": ["Python", "Pytorch", "Git", "CI/CD", "Docker"],
         "projects": [
             {
                 "name": "project1",
@@ -12,8 +12,10 @@ def main():
             }
         ],
         "contact": {
-            "github": "",
-            "linkedin": ""
+            "github": "https://github.com/l236",
+            "linkedin": "https://www.linkedin.com/in/kendrick-lee-84b0a5211/",
+            "leetcode": "https://leetcode.cn/u/wdll/",
+            "email": "569076215@qq.com"
         }
     }
 
@@ -102,7 +104,8 @@ def main():
                     <div class="contact">
                         <p>
                             <a href="{personal_info['contact']['github']}" target="_blank">GitHub</a> |
-                            <a href="{personal_info['contact']['linkedin']}" target="_blank">LinkedIn</a>
+                            <a href="{personal_info['contact']['linkedin']}" target="_blank">LinkedIn</a> |
+                            <a href="{personal_info['contact']['leetcode']}" target="_blank">Leetcode</a>
                         </p>
                     </div>
                 </div>
