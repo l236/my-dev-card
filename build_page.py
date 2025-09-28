@@ -3,6 +3,7 @@ def main():
     personal_info = {
         "name": "LI KANGJIA",
         "title": "AI Engineer",
+        "email": "569076215@qq.com",
         "description": "AI Engineer passionate about MLOPs and automation.",
         "skills": ["Python", "Pytorch", "Git", "CI/CD", "Docker"],
         "projects": [
@@ -15,7 +16,6 @@ def main():
             "github": "https://github.com/l236",
             "linkedin": "https://www.linkedin.com/in/kendrick-lee-84b0a5211/",
             "leetcode": "https://leetcode.cn/u/wdll/",
-            "email": "569076215@qq.com"
         }
     }
 
@@ -47,6 +47,11 @@ def main():
                 text-align: center;
                 margin-bottom: 10px;
             }}
+            h3 {{
+                color: #444;
+                text-align: right;
+                margin-bottom: 10px;
+            }}
             .title {{
                 text-align: center;
                 color: #666;
@@ -75,6 +80,7 @@ def main():
     <body>
         <div class="container">
             <h1>{personal_info['name']}</h1>
+            <h3>{personal_info['email']}</h3>
             <div class="title">{personal_info['title']}</div>
             <p>{personal_info['description']}</p>
             <h2>skills</h2>
